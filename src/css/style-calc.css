@@ -1,0 +1,11 @@
+.form {
+    -fx-padding: 10px;
+}
+
+#inputText {
+    -fx-font-size: 190%;
+}
+
+#inputText *.text {
+    -fx-text-alignment: right;
+}

@@ -1,0 +1,53 @@
+#chatText {
+    -fx-background-color: transparent;
+    -fx-font-family: "Serif";
+    -fx-font-size: 130%;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, #222 0%, #666 100%);
+
+}
+
+#chatText .content {
+    -fx-background-color: none;
+    -fx-background-image: url("/img/fon.png");
+}
+
+#chatText:focused .content {
+    -fx-background-color: transparent;
+}
+
+.inputPanel {
+    -fx-background-color: #fff;
+    -fx-padding: 5px;
+    -fx-border-width: 1px 0px 0px 0px;
+    -fx-border-color: #ddd;
+}
+
+#inputText {
+    -fx-background-color: transparent;
+    -fx-font-size: 120%;
+}
+
+#buttonSend {
+     -fx-border: solid;
+     -fx-border-width: 1px;
+     -fx-border-color: grey;
+     -fx-background-color: transparent;
+     -fx-border-radius: 10;
+     -fx-padding: 3px;
+}
+
+#buttonSend:hover {
+    -fx-border-color: black;
+    -fx-background-radius: 15;
+    -fx-background-color: #eee;
+}
+
+#buttonSend:focused {
+    -fx-border-color: black;
+    -fx-background-radius: 10;
+    -fx-background-color: #eee;
+}
+
+#buttonSend:pressed {
+    -fx-background-color: transparent;
+}
